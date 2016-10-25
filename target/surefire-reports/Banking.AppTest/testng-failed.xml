@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Banking.AppTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="Banking.AppTest">
+        <methods>
+          <include name="OpeningBrowser"/>
+          <include name="Cookies"/>
+          <include name="Cookiesclose"/>
+          <include name="UseridGeneration"/>
+          <include name="Reportadding"/>
+        </methods>
+      </class> <!-- Banking.AppTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Banking.AppTest] -->
